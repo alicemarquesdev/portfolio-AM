@@ -5,19 +5,34 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" <title>Desenvolvedor</title>
-</head>
+    <title>Alice Marques</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>,
 
 <body>
     <header>
-        <nav class="container">
-            <div class="logo">AM</div>
+        <nav>
+            <div class="logo">
+                <img src="img-profile.jpg" alt="foto do perfil" />
+                Alice Marques
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
             <ul class="nav-links">
                 <li>
-                    <a href="#sobre">Sobre</a>
+                    <a href="#dev">Início</a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a href="#sobre">Sobre</a>
                 </li>
                 <li>
                     <a href="#projetos">Projetos</a>
@@ -31,81 +46,66 @@
 
 
     <main>
-        <section id="sobre" class="dev container fade-in">
+        <section id="dev" class="fade-in">
             <div class="dev-texto">
                 <h1>Alice Marques</h1>
                 <p>Sou desenvolvedora, apaixonada por desenvolver sites bonitoss e funcionais.</p>
-                <a class="botao-de-contato" href="#Contato">Entre em contato</a>
+                <a class="botao-link" href="#Contato">Entre em contato</a>
             </div>
             <div class="dev-imagem">
-                <img src="dude.png" class="imagem-perfil">
+                <img src="img-profile.jpg" alt="imagem-perfil">
             </div>
         </section>
 
-        <section id="skills" class="container fade-in">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skills-item">
-                    <div class="skill-icon">&#128187;</div>
-                    <h3>Frontend</h3>
-                    <p>HTML, CSS, JavaScript, React</p>
-                </div>
-                <div class="skills-item">
-                    <div class="skill-icon">&#128295;</div>
-                    <h3>Backend</h3>
-                    <p>Node.js, Express, Python</p>
-                </div>
-                <div class="skills-item">
-                    <div class="skill-icon">&#128202;</div>
-                    <h3>Banco de dados</h3>
-                    <p>MongoDB, PostgreSQL</p>
-                </div>
-                <div class="skills-item">
-                    <div class="skill-icon">&#128736;</div>
-                    <h3>Ferramentas</h3>
-                    <p>Git, Docker, AWS</p>
-                </div>
-            </div>
-        </section>
+        <section id="sobre" class="fade-in">
+            <h2>Sobre Mim</h2>
+            <p class="sobre-intro">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+                tempora explicabo quae quod deserunt eius sapiente
+            </p>
+            <div class="sobre-content">
+                <div class="sobre-item">
+                    <h1>Conheça me</h1>
+                    <p>
+                        I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web
+                        Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
 
-        <section id="projetos" class="container fade-in">
-            <h2>Projetos</h2>
-            <div class="projetos-grid">
-                <div class="projeto-card">
-                    <h3 class="titulo-projeto"> Site de E-commerce </h3>
-                    <p>Plataforma de Comércio Eletrônico totalmente responsiva com autenticação de usuario e
-                        funcionalidade de pagamento.</p>
-                    <div class="projeto-tags">
-                        <span> React </span>
-                        <span> Node.js </span>
-                        <span> MongoDB </span>
-                    </div>
-                </div>
-                <div class="projeto-card">
-                    <h3 class="titulo-projeto"> App de Gerenciamento de Tarefas </h3>
-                    <p> Uma aplicação de produtividade para gerenciar tarefas e projetos com atualizações em tempo real
-                        e recurso de colaboração de equipes.</p>
-                    <div class="projeto-tags">
-                        <span>React</span>
-                        <span>Firebase</span>
-                        <span>Material UI</span>
-                    </div>
-                </div>
-                <div class="projeto-card">
-                    <h3 class="titulo-projeto"> Dashboard Clima</h3>
-                    <p> Aplicação de tempo interativa que exibe dados meteorológicos atuais e previstos usando uma API.
+                        I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other
+                        people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related
+                        to Web Development and Programming
                     </p>
-                    <div class="projeto-tags">
-                        <span>Javascript</span>
-                        <span>API</span>
-                        <span>Chart.js</span>
+                </div>
+                <div class="sobre-item">
+                    <h1>Skills</h1>
+                    <div class="skills">
+                        <div class="skill-item">HTML</div>
+                        <div class="skill-item">CSS</div>
+                        <div class="skill-item">BOOTSTRAP</div>
+                        <div class="skill-item">C#</div>
+                        <div class="skill-item">SQL</div>
+                        <div class="skill-item">NOSQL</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contato" class="contato fade-in">
-            <h2 class="titulo-contato">Contate-me!</h2>
+        <section id="projetos" class="fade-in">
+            <h2>Projetos</h2>
+            <div class="projeto-card">
+                <img src="img-profile.jpg" />
+                <div class="projeto-card-text">
+                    <h3 class="titulo-projeto"> Site de E-commerce </h3>
+                    <p>
+                        Plataforma de Comércio Eletrônico totalmente responsiva com autenticação de usuario e
+                        funcionalidade de pagamento.
+                    </p>
+                    <a class="botao-link" href="#Contato">Explorar o projeto</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="fade-in">
+            <h2>Contate-me!</h2>
             <form class="contato-form">
                 <div class="grupo-formulario">
                     <label for="nome"> Nome </label>
@@ -119,17 +119,12 @@
                     <label for="mensagem">Mensagem</label>
                     <textarea id="mensagem" name="mensagem" required></textarea>
                 </div>
-                <button type="submit"> Mandar mensagem </button>
+                <button class="botao-link" type="submit"> Mandar mensagem </button>
             </form>
         </section>
 
         <footer>
-            <ul class="icones-footer">
-                <li>&#128187</li>
-                <li>&#128101</li>
-                <li>&#128038</li>
-            </ul>
-            <p>&copy; 2024 Alice Marques. Todos os direitos reservados</p>
+            <p>&copy; 2025 Alice Marques. Todos os direitos reservados</p>
         </footer>
     </main>
 </body>
