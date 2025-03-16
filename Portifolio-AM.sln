@@ -5,14 +5,13 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{20EF4BF9-EC08-4AF0-9D93-99BECD7DC0BD}"
 	ProjectSection(SolutionItems) = preProject
-		common-bg.svg = common-bg.svg
-		C:\Users\alice\Downloads\img-profile.jpg = C:\Users\alice\Downloads\img-profile.jpg
 		portifolio.html = portifolio.html
 		style.css = style.css
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imagem", "imagem", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
+		common-bg.svg = common-bg.svg
 		C:\Users\alice\Downloads\img-profile.jpg = C:\Users\alice\Downloads\img-profile.jpg
 	EndProjectSection
 EndProject
