@@ -173,7 +173,7 @@ section {
 }
 
 #dev {
-    padding: 6rem 8rem 4rem 0;
+    padding: 9rem 8rem 4rem 0;
     background: linear-gradient(to right, rgba(240, 240, 240, 0.8), rgba(240, 240, 240, 0.8)), url(assets/common-bg.svg);
     display: flex;
     align-items: center;
