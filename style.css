@@ -293,8 +293,8 @@ section {
     .projeto-card img {
         width: 400px;
         min-width: 400px;
-        height: auto;
-        max-height: 200px;
+        height: 250px;
+        max-height: 250px;
         object-fit: cover;
         border: 1.7px solid #000;
         border-radius: 10px;
